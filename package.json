@@ -1,7 +1,7 @@
 {
   "name": "ide-kos",
   "main": "./dist/main.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Atom client for the kOS-language-server",
   "author": "John Chabot",
   "keywords": [
@@ -16,7 +16,7 @@
     "prod": "tsc -p ./tsconfig.json",
     "dev": "tsc -p ./tsconfig.json"
   },
-  "repository": "https://github.com/jonnyboyC/kos-language-server",
+  "repository": "https://github.com/jonnyboyC/kos-ide",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0",
