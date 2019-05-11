@@ -1,0 +1,4 @@
+[submodule "grammars"]
+	path = grammars
+	url = https://github.com/jonnyboyC/kos-grammar.git
+	branch = master
