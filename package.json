@@ -1,7 +1,7 @@
 {
   "name": "ide-kos",
-  "main": "./dist/main.js",
-  "version": "0.1.3",
+  "main": "./lib/main",
+  "version": "0.1.4",
   "description": "Atom client for the kOS-language-server",
   "author": "John Chabot",
   "keywords": [
@@ -20,7 +20,7 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0",
-    "node": "*"
+    "node": ">=8.9.0"
   },
   "configSchema": {
     "kosServer": {
@@ -36,12 +36,27 @@
       }
     }
   },
+  "activationHooks": [
+    "source.kos:root-scope-used"
+  ],
   "enhancedScopes": [
     "source.kos"
   ],
   "dependencies": {
     "atom-languageclient": "^0.9.9",
-    "kos-language-server": "^0.6.0"
+    "kos-language-server": "^0.6.2",
+    "semver": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/atom": "^1.36.1",
+    "@types/node": "^11.13.10",
+    "@types/semver": "^6.0.0",
+    "ts-loader": "^5.4.5",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   },
   "consumedServices": {
     "console": {
@@ -86,15 +101,5 @@
         "0.1.0": "provideOutlines"
       }
     }
-  },
-  "devDependencies": {
-    "@types/atom": "^1.36.1",
-    "@types/node": "^11.13.10",
-    "ts-loader": "^5.4.5",
-    "tslint": "^5.16.0",
-    "tslint-config-airbnb": "^5.11.1",
-    "typescript": "^3.4.5",
-    "webpack": "^4.31.0",
-    "webpack-cli": "^3.3.2"
   }
 }
