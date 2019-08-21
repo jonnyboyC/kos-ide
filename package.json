@@ -44,19 +44,19 @@
   ],
   "dependencies": {
     "atom-languageclient": "^0.9.9",
-    "kos-language-server": "^0.8.0",
-    "semver": "^6.2.0"
+    "kos-language-server": "^0.10.0",
+    "semver": "^6.3.0"
   },
   "devDependencies": {
     "@types/atom": "^1.36.1",
-    "@types/node": "^12.6.8",
+    "@types/node": "^12.7.2",
     "@types/semver": "^6.0.1",
     "ts-loader": "^6.0.4",
-    "tslint": "^5.18.0",
+    "tslint": "^5.19.0",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.5.3",
-    "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6"
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
   },
   "consumedServices": {
     "console": {
