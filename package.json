@@ -49,14 +49,14 @@
   },
   "devDependencies": {
     "@types/atom": "^1.36.1",
-    "@types/node": "^12.7.2",
-    "@types/semver": "^6.0.1",
-    "ts-loader": "^6.0.4",
-    "tslint": "^5.19.0",
+    "@types/node": "^12.7.5",
+    "@types/semver": "^6.0.2",
+    "ts-loader": "^6.1.0",
+    "tslint": "^5.20.0",
     "tslint-config-airbnb": "^5.11.1",
-    "typescript": "^3.5.3",
-    "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7"
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
   },
   "consumedServices": {
     "console": {
